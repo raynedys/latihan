@@ -1,0 +1,56 @@
+/* *{
+    border: 1px solid red;
+} */
+
+body{
+    background-image: url("img/background.jpg");
+}
+
+header{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: rgb(226, 218, 218);
+}
+
+header h1{
+    font-size: 2.5rem;
+}
+
+.container{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    margin-top: 30px;
+    color: rgb(226, 218, 218);
+}
+
+.container h1{
+    font-size: 2rem;
+}
+
+.container img{
+    width: 200px;
+    margin: 5px;
+}
+
+.container .vs{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+@media (max-width : 425px){
+    header h1{
+        font-size: 2rem;
+    }
+
+    .container h1{
+        font-size: 1.5rem;
+    }
+
+    .container img{
+        width: 100px;
+    }
+
+    .container{
+        margin-top: 35px;
+    }
+}
